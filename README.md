@@ -4,5 +4,4 @@ The code you will build queries the "data.json" stub file  asynchronously to sim
 Once information returns, render the app as shown in the "result.png" image.
 Once the app is fully rendered the user can switch between "Items" and the detailed view  should update itself accordingly. For example pressing "Item 3" should display all the details of Item3.
 #### Result
-![image](https://github.com/darthvoider/simple_code_example/public/assets/result.png)
-![image alt](result)
+![image](https://raw.githubusercontent.com/darthvoider/simple_code_example/master/public/assets/result.png)
