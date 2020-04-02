@@ -31,12 +31,23 @@
 
     &-menu-item {
         --active-background: #f5f5f5;
+        position: relative;
         padding: 10px 5px;
         display: flex;
         align-items: center;
-        transition: 0.2s;
-        border-left: 2px solid transparent;
         border-bottom: 1px solid var(--text-color);
+
+        &:before {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            content: '';
+            width: 3px;
+            height: 100%;
+            background-color: transparent;
+            transition: 0.2s;
+        }
 
         &:first-of-type {
             border-top: 1px solid var(--text-color);
@@ -53,8 +64,11 @@
         &:hover {
             font-weight: bold;
             background-color: var(--active-background);
-            border-left-color: var(--secondary-color);
             cursor: pointer;
+
+            &:before {
+                background-color: var(--secondary-color);
+            }
 
             .icon-arrow-right {
                 opacity: 1;
