@@ -1,0 +1,45 @@
+.sidebar-toggle {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    transition: all .3s ease;
+    z-index: 1;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+
+.ham {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: #2d2d2d;
+
+    & + & {
+        margin-top: 5px;
+    }
+}
+
+.ham {
+    transition: all .3s ease;
+}
+
+.sidebar-toggle.opened .top {
+    transform: translateY(6px) rotateZ(-45deg);
+}
+
+.sidebar-toggle.opened .bottom {
+    transform: translateY(-10px) rotateZ(45deg);
+}
+
+.sidebar-toggle.opened .middle {
+    opacity: 0;
+    transform: translateX(-10px);
+}

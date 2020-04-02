@@ -1,0 +1,14 @@
+.item-detail {
+    & + & {
+        margin-top: 10px;
+    }
+    &-title {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &-value {
+        padding: 5px 10px;
+        background-color: var(--home-page-bg);
+    }
+}

@@ -1,0 +1,9 @@
+.site-header{
+    --header-bg: #4d555e;
+    --header-color: #818787;
+
+    padding: 15px 10px;
+    background-color: var(--header-bg);
+    color: var(--header-color);
+    position: relative;
+}

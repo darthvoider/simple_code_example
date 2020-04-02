@@ -1,0 +1,8 @@
+.item-action {
+    & + & {
+        margin-top: 20px;
+    }
+    padding: 5px 10px;
+    background-color: var(--home-page-bg);
+    margin-bottom: 0;
+}

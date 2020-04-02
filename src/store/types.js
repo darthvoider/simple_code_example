@@ -1,0 +1,5 @@
+export const SET_RESOURCES = 'SET_RESOURCES';
+export const SET_ACTIONS = 'SET_ACTIONS';
+export const SET_ACTIVE_ITEM = 'SET_ACTIVE_ITEM';
+export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+export const CLOSE_SIDEBAR = 'CLOSE_SIDEBAR';

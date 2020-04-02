@@ -1,0 +1,8 @@
+#root {
+    overflow-x: hidden;
+}
+.site-main {
+    min-height: calc(100vh - var(--site-header-height));
+    display: flex;
+    position: relative;
+}
